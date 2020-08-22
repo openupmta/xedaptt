@@ -29,7 +29,7 @@ class RouterUrl extends Component {
                 <Route exact path="/login">
                     <Login />
                 </Route >
-                <Route exact path="/">
+                <Route path="/">
                     <Home />
                 </Route>
             </Switch>
