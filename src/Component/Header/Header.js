@@ -9,19 +9,19 @@ import {
 import URL_SERVER from '../Enum';
 const items = [
   {
-    src: '/img/04.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: '/img/06.jpg',
+    altText: '',
+    caption: 'Xe địa hình'
   },
   {
-    src: '/img/05.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    src: '/img/07.png',
+    altText: '',
+    caption: 'Xe thống nhất'
   },
   {
-    src: '/img/02.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: '/img/08.png',
+    altText: '',
+    caption: 'Xe thăng bằng'
   }
 ];
 
@@ -67,8 +67,8 @@ const Header = (props) => {
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+      {/* <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+      <CarouselControl direction="next" directionText="Next" onClickHandler={next} /> */}
     </Carousel>
   );
 }

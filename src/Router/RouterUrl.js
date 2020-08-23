@@ -4,7 +4,7 @@ import Login from '../Component/Login/Login';
 import {
     Switch,
     Route
-  } from "react-router-dom";
+} from "react-router-dom";
 import Home from '../Component/Home/Home';
 import Product from '../Component/Product/Product';
 import ProductDetail from '../Component/Product/ProductDetail';
@@ -15,10 +15,10 @@ class RouterUrl extends Component {
 
             <Switch>
                 <Route exact path="/product">
-                    <Product/>
+                    <Product />
                 </Route>
                 <Route exact path="/product-detail/:id">
-                    <ProductDetail/>
+                    <ProductDetail />
                 </Route>
                 <Route exact path="/register">
                     <Register />
@@ -30,7 +30,7 @@ class RouterUrl extends Component {
                     <Login />
                 </Route >
                 <Route path="/">
-                    <Home />
+                    <Product />
                 </Route>
             </Switch>
         );
