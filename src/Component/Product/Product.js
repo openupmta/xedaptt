@@ -11,7 +11,7 @@ class Product extends Component {
                 "id": "2199ad70-f38b-44b6-b291-f776f2f9f874",
                 "name": "Nanine",
                 "description": "Product Management",
-                "imageUrl": "http://dummyimage.com/300x200.bmp/5fa2dd/ffffff"
+                "imageUrl": "/img/01.jpg"
               }, {
                 "id": "fab08a1b-23aa-4a14-8338-cc9165968b97",
                 "name": "Teodoor",
@@ -526,7 +526,6 @@ class Product extends Component {
                         <ProductItem product={product} key={key}/>
                     )
                 } 
-
                 )}
                 </Row>
             </Container>
